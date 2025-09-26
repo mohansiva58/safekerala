@@ -1,226 +1,141 @@
-# MediBot - AI-Powered Health Assistant 🏥🤖
+# 🏥 Digital Health Record Management System for Migrant Workers – SIH 2025  
 
-[![Next.js](https://img.shields.io/badge/Next.js-13+-black)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0+-06B6D4)](https://tailwindcss.com/)
-[![Firebase](https://img.shields.io/badge/Firebase-Latest-orange)](https://firebase.google.com/)
-[![PWA](https://img.shields.io/badge/PWA-Enabled-success)](https://web.dev/progressive-web-apps/)
+![Smart India Hackathon](https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Smart_India_Hackathon_Logo.png/300px-Smart_India_Hackathon_Logo.png)
 
-## 🌟 Overview
+## 🚀 Problem Statement
+**PS ID:** 25083  
+**Title:** Digital Health Record Management System for Migrant Workers in Kerala aligned with Sustainable Development Goals.  
+**Organization:** Government of Kerala – Health Service Department  
 
-MediBot is an advanced AI-powered medical chatbot designed to revolutionize digital healthcare. Our platform assists users in validating medical queries, tracking health metrics, managing medications, and connecting with nearby healthcare services through an intelligent conversational interface.
+Kerala hosts a significant migrant population that lacks a **comprehensive health record system**. Migrants often face **language barriers, lack of access to medical history, and mobility issues**, which increases the risk of **infectious disease spread** and limits fair healthcare access.  
 
-## 🎯 Key Features
-
-### 🤖 **AI Medical Chatbot**
-- Built using advanced Ollama and RAG models for real-time, accurate medical responses
-- Natural language processing for intuitive health conversations
-- 24/7 availability for health queries and support
-- Evidence-based medical information delivery
-
-### 🎤 **Voice Interaction**
-- Integrated OpenAI Whisper for speech-to-text functionality
-- Hands-free health consultations
-- Multi-language voice support
-- Accessibility-focused voice interface
-
-### 💊 **Smart Medication Management**
-- Automated medication reminders and scheduling
-- Prescription analysis and OCR from scanned documents
-- Drug interaction checking and warnings
-- Medication adherence tracking
-
-### 📍 **Healthcare Location Services**
-- Google Maps API integration for nearby healthcare facilities
-- Real-time location of hospitals, clinics, and pharmacies
-- Direction and contact information for healthcare providers
-- Emergency service locator
-
-### 📅 **Appointment Management**
-- Schedule and manage medical appointments
-- Automated appointment reminders
-- Healthcare provider integration
-- Calendar synchronization
-
-### 📊 **Health Dashboard & Monitoring**
-Monitor critical health metrics including:
-- **Blood Pressure (BP)** - Systolic and diastolic tracking
-- **Heart Rate** - Real-time pulse monitoring
-- **Pulse Rate** - Cardiovascular health assessment
-- **Cholesterol Levels** - Lipid profile tracking
-- **Weight & BMI** - Body composition analysis
-- **Blood Sugar** - Glucose level monitoring
-
-### 📋 **Health Report Generator**
-- Automatically generate personalized health reports
-- Export health data in PDF format
-- Share reports with healthcare providers
-- Historical health trend analysis
-
-### 🔮 **Upcoming Features**
-- **Advanced Prescription Analysis**: Enhanced OCR for complex prescriptions
-- **Speech-to-Speech Interaction**: Complete voice-based chatbot experience
-- **Telemedicine Integration**: Real-time consultation with certified doctors
-- **Medicine Database**: Comprehensive medicine lookup and information
-- **AI Health Predictions**: Predictive health analytics
-- **Wearable Device Integration**: Sync with fitness trackers and smartwatches
-
-## 🚀 Technology Stack
-
-### Frontend
-- **React 18+** with modern hooks and context
-- **Next.js 13+** with App Router for optimal performance
-- **TypeScript** for type-safe development
-- **Tailwind CSS** for responsive design
-- **Framer Motion** for smooth animations
-
-### AI & Machine Learning
-- **Ollama Models** for medical AI responses
-- **RAG (Retrieval-Augmented Generation)** for accurate information
-- **OpenAI Whisper** for speech recognition
-- **Natural Language Processing** for medical query understanding
-
-### Backend & Database
-- **Firebase** for real-time data management
-- **Firestore** for scalable NoSQL database
-- **Firebase Authentication** for secure user management
-- **Google Maps API** for location services
-
-### Mobile & PWA
-- **Progressive Web App** architecture
-- **Service Workers** for offline functionality
-- **Push Notifications** for medication reminders
-- **Responsive Design** for all device types
-
-## 📱 Installation & Quick Start
-
-### Prerequisites
-- Node.js 18 or higher
-- npm or yarn package manager
-- Firebase account for backend services
-- Google Maps API key
-
-### Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/medibot.git
-   cd medibot
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**
-   Create a `.env.local` file with:
-   ```env
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-   NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_key
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open Application**
-   Visit `http://localhost:3000` in your browser
-
-## 🏥 Healthcare Features in Detail
-
-### Medical AI Chatbot
-Our AI chatbot leverages advanced machine learning models to provide:
-- **Symptom Assessment**: Intelligent analysis of user-reported symptoms
-- **Medical Q&A**: Instant answers to common health questions
-- **Health Education**: Evidence-based medical information
-- **Emergency Guidance**: Critical situation assessment and advice
-
-### Health Monitoring Dashboard
-Comprehensive health tracking with:
-- **Real-time Vitals**: Live monitoring of key health indicators
-- **Trend Analysis**: Historical health data visualization
-- **Goal Setting**: Personalized health improvement targets
-- **Progress Tracking**: Detailed health journey documentation
-
-### Medication Management System
-Advanced prescription management featuring:
-- **Smart Reminders**: Customizable medication alerts
-- **Dosage Tracking**: Accurate medication adherence monitoring
-- **Interaction Checker**: Drug compatibility analysis
-- **Refill Alerts**: Automatic prescription renewal reminders
-
-## 🔐 Security & Privacy
-
-### HIPAA Compliance
-- End-to-end encryption for all health data
-- Secure data transmission protocols
-- Regular security audits and updates
-- Privacy-first data handling practices
-
-### Data Protection
-- Local data storage options
-- Encrypted cloud backup
-- User-controlled data sharing
-- GDPR compliance for international users
-
-## 📊 SEO & Accessibility
-
-### Search Engine Optimization
-- Comprehensive meta tags and Open Graph support
-- Structured data markup for healthcare content
-- Sitemap generation for better indexing
-- Mobile-first responsive design
-
-### Accessibility Features
-- WCAG 2.1 AA compliance
-- Screen reader compatibility
-- Keyboard navigation support
-- High contrast mode for visually impaired users
-
-## 🤝 Contributing
-
-We welcome contributions from the healthcare and developer community!
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch
-3. Implement your changes
-4. Add comprehensive tests
-5. Submit a pull request
-
-### Development Guidelines
-- Follow TypeScript best practices
-- Maintain medical accuracy in AI responses
-- Ensure accessibility compliance
-- Write comprehensive documentation
-
-## 📄 License
-
-This project is licensed under the MIT License - promoting open-source healthcare innovation.
-
-## 🆘 Support & Community
-
-### Documentation
-- [API Documentation](docs/api.md)
-- [Medical AI Guidelines](docs/medical-ai.md)
-- [Healthcare Provider Integration](docs/provider-integration.md)
-
-### Community Support
-- GitHub Issues for bug reports
-- Discord community for discussions
-- Medical advisory board for clinical accuracy
-
-### Contact Information
-- **Email**: support@medibot.app
-- **Website**: [https://medibot-ai.com](https://medibot-ai.com)
-- **Medical Inquiries**: medical@medibot.app
+Our solution provides a **secure, AI-powered, blockchain-backed health record system** that enables **anywhere access, multilingual support, and government health surveillance**.
 
 ---
 
-**MediBot** - Empowering individuals with AI-driven healthcare solutions. Transform your health journey today! 🏥✨
+## 🛠️ Tech Stack
 
-*Disclaimer: MediBot is designed to provide health information and support. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare providers for medical concerns.*
+### **Frontend**
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+- ![Typescript](https://img.shields.io/badge/Typescript-3178C6?logo=typescript&logoColor=white)
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
+- ![Framer Motion](https://img.shields.io/badge/FramerMotion-0055FF?logo=framer&logoColor=white)
+
+### **Backend**
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
+- ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+- ![API](https://img.shields.io/badge/REST%20API-FF6F00?logo=fastapi&logoColor=white)
+
+### **Security**
+- ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)
+- End-to-End Encryption (AES-256)
+- OAuth2.0 + Multi-Factor Authentication
+- Blockchain (Hyperledger / Ethereum private chain)
+
+### **AI & Advanced**
+- ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) (Chatbot + Summarizer)  
+- ![LangChain](https://img.shields.io/badge/LangChain-000000?logo=chainlink&logoColor=white) (AI Agents)  
+- ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white) (Predictive Analytics)  
+- ![Google Cloud Speech](https://img.shields.io/badge/Speech%20API-4285F4?logo=googlecloud&logoColor=white) (TTS/STT)  
+
+### **Deployment**
+- ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+- ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+- ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+
+---
+
+## ✨ Features & How They Work
+
+### 1. 🔐 **User Registration & Authentication**
+- Migrants sign up via **Email / Phone / Aadhaar / OTP**.
+- Govt Admin verifies documents → issues **unique Health ID + QR Code**.
+- Security: **JWT + Blockchain-based verification**.
+
+---
+
+### 2. 📂 **Health Record Management**
+- Users upload medical docs (prescriptions, X-rays, lab reports).
+- Stored in **Firebase + Blockchain ledger** (tamper-proof).
+- AI Summarizer → Converts medical jargon into **simple, migrant-friendly language**.
+
+---
+
+### 3. 🌍 **Multi-language + Text-to-Speech (TTS/STT)**
+- Supports **Malayalam, Hindi, Bengali, Tamil, English**.
+- Migrants can **listen to reports in their language** or **speak queries**.
+- Powered by **react-i18next + Google Speech API**.
+
+---
+
+### 4. 🤖 **AI Chatbot & Summarizer**
+- Migrants ask health questions in their language.
+- AI explains test reports & government alerts.
+- Built using **GPT/Gemini + LangChain + RAG**.
+
+---
+
+### 5. 📅 **Reminders & Appointments**
+- Automatic reminders for **vaccines, medicine doses, checkups**.
+- Migrants can book **nearest hospitals/doctors** via **Google Maps integration**.
+
+---
+
+### 6. 🚑 **Emergency Support**
+- One-click emergency button → auto-shares health record with nearest hospital.
+- Geo-location → Shows **nearest hospital/ambulance contact**.
+
+---
+
+### 7. 🩺 **Doctor / Hospital Access**
+- Doctors scan QR → Instantly see verified health records.
+- Records are summarized by AI → saves time in emergencies.
+
+---
+
+### 8. 🧠 **Predictive Analytics for Govt**
+- AI models analyze health trends in migrant areas.
+- Detects possible **disease outbreaks** early.
+- Govt dashboards show **public health insights**.
+
+---
+
+### 9. 📱 **Progressive Web App (PWA)**
+- Works in **offline mode** (low network regions).
+- Migrants can **download app by scanning QR code**.
+
+---
+
+### 10. ⛓ **Blockchain Security**
+- Records are **immutable** → can’t be tampered with.
+- Migrants control **data sharing consent** with doctors/hospitals.
+
+---
+
+### 11. 📡 **IoT & Wearable Integration** *(Future-ready)*
+- Sync data from smart devices (BP monitors, glucose sensors, wearables).
+- Auto-updates migrant health profile.
+
+---
+
+## 🏗️ System Architecture
+(Add your PPT diagram here – showing **User → Dashboard → Blockchain + Cloud → Doctor → Govt Analytics**)
+
+---
+
+## ⚡ Installation & Setup
+
+```bash
+# Clone repo
+git clone https://github.com/your-repo.git
+
+# Install dependencies
+npm install
+
+# Run development
+npm run dev
+
+# Build production
+npm run build
+npm start
